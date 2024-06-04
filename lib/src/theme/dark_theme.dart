@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:money_splitter/theme/typography.dart';
+import 'package:money_splitter/src/theme/typography.dart';
 
 ThemeData darkTheme = ThemeData(
   useMaterial3: true,
