@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:money_splitter/src/theme/typography.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 ThemeData lightTheme = ThemeData(
   useMaterial3: true,
-  fontFamily: 'Nunito',
   brightness: Brightness.light,
   colorSchemeSeed: const Color.fromARGB(0, 70, 167, 88),
-  textTheme: textTheme
+  textTheme: GoogleFonts.nunitoTextTheme()
 );
